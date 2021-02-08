@@ -49,34 +49,60 @@ const Hero = () => {
         </div>
       </Container>
 
-      <div className='team m-5'>
-          <h1 className='text-center my-5'>Our Games</h1>
-          <Row>
-            <Col xs={6} md={4}>
-              <img
-                className='img-fluid'
-                src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1610066864/Rectangle_4_w64mko.png'
-                alt='img'
-              />
-            </Col>
-            <Col xs={6} md={4}>
-              <img
-                className='img-fluid'
-                src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1610066864/Rectangle_4_w64mko.png'
-                alt='img'
-              />
-            </Col>
-            <Col xs={6} md={4}>
-              <img
-                className='img-fluid'
-                src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1610066864/Rectangle_4_w64mko.png'
-                alt='img'
-              />
-            </Col>
-          </Row>
+      {/* <div className='team m-5'>
+        <h1 className='text-center my-5'>Our Games</h1>
+        <Row>
+          <Col xs={6} md={4}>
+            <img
+              className='img-fluid'
+              src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1610066864/Rectangle_4_w64mko.png'
+              alt='img'
+            />
+          </Col>
+          <Col xs={6} md={4}>
+            <img
+              className='img-fluid'
+              src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1610066864/Rectangle_4_w64mko.png'
+              alt='img'
+            />
+          </Col>
+          <Col xs={6} md={4}>
+            <img
+              className='img-fluid'
+              src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1610066864/Rectangle_4_w64mko.png'
+              alt='img'
+            />
+          </Col>
+        </Row>
+      </div> */}
+
+      <div className='contact-info'>
+        <div className='cards'>
+          <i className='icon fas fa-envelope'></i>
+          <div className='card-content'>
+            <h3>Email</h3>
+            <span>tosanogharandukun@gmail.com</span>
+          </div>
         </div>
 
-      <div className='contact m-5'>
+        <div className='cards'>
+          <i className='icon fas fa-phone'></i>
+          <div className='card-content'>
+            <h3>Phone Number</h3>
+            <span>08110581032</span>
+          </div>
+        </div>
+
+        <div className='cards'>
+          <i className='icon fas fa-map-marker-alt'></i>
+          <div className='card-content'>
+            <h3>Location</h3>
+            <span>Lagos, Nigeria</span>
+          </div>
+        </div>
+      </div>
+
+      {/* <div className='contact m-5'>
         <div className='row'>
           <div className='col-6 bg-danger'>
             <form className=''>
@@ -139,7 +165,7 @@ const Hero = () => {
 
           <div className='col-6 bg-success'></div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
