@@ -77,48 +77,48 @@ const Hero = () => {
         </div>
 
       <div className='contact m-5'>
-        <div class='row'>
-          <div class='col-6 bg-danger'>
-            <form class=''>
-              <h1 class='text-center my-5'>Contact us</h1>
+        <div className='row'>
+          <div className='col-6 bg-danger'>
+            <form className=''>
+              <h1 className='text-center my-5'>Contact us</h1>
 
-              <div class=''>
-                <label class='col-md-3 control-label' for='name'>
+              <div className=''>
+                <label className='col-md-3 control-label'>
                   Name
                 </label>
-                <div class='col-md-12'>
+                <div className='col-md-12'>
                   <input
                     id='name'
                     name='name'
                     type='text'
                     placeholder='Your name'
-                    class='form-control'
+                    className='form-control'
                   />
                 </div>
               </div>
 
-              <div class='form-group'>
-                <label class='col-md-3 control-label' for='email'>
+              <div className='form-group'>
+                <label className='col-md-3 control-label'>
                   Email
                 </label>
-                <div class='col-md-12'>
+                <div className='col-md-12'>
                   <input
                     id='email'
                     name='email'
                     type='text'
                     placeholder='Your email'
-                    class='form-control'
+                    className='form-control'
                   />
                 </div>
               </div>
 
-              <div class='form-group'>
-                <label class='col-md-3 control-label' for='message'>
+              <div className='form-group'>
+                <label className='col-md-3 control-label'>
                   Your message
                 </label>
-                <div class='col-md-12'>
+                <div className='col-md-12'>
                   <textarea
-                    class='form-control'
+                    className='form-control'
                     id='message'
                     name='message'
                     placeholder='Please enter your message here...'
@@ -127,9 +127,9 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div class='form-group'>
-                <div class=''>
-                  <button type='submit' class='btn btn-primary btn-lg'>
+              <div className='form-group'>
+                <div className=''>
+                  <button type='submit' className='btn btn-primary btn-lg'>
                     Submit
                   </button>
                 </div>
@@ -137,7 +137,7 @@ const Hero = () => {
             </form>
           </div>
 
-          <div class='col-6 bg-success'></div>
+          <div className='col-6 bg-success'></div>
         </div>
       </div>
     </div>
