@@ -1,10 +1,44 @@
-.hero-section {
-  margin: 0;
-  padding: 0;
+h1 {
+  color: #1C1C42;
+  font-size: 65px;
+  margin-top: 40px;
+  line-height: 57px;
+}
+
+p {
+  margin-top: 2px;
+  color: #504D6C;
+  font-size: 32px;
+  line-height: 57px;
+}
+
+.content {
+  margin-top: 170px;
+}
+
+.contents  h1{
+  margin-top: 45px;
+}
+
+.contents  p{
+  font-size: 22px;
+  line-height: 27px;
+}
+
+button {
+  padding: 7px 10px;
+  border-radius: 10%;
+  background: #504D6C;
+  border: none;
+  color: #fff;
 }
 
 .games img {
   height: 600px;
+}
+
+.con {
+  margin-top: 10px;
 }
 
 .contact-info{
@@ -16,12 +50,12 @@
   height: 50vh;
 }
 
-.cards{
+.cards {
   position: relative;
   flex: 1;
   max-width: 300px;
   height: 180px;
-  background-color: #444;
+  background-color: #1C1C42;
   margin: 20px;
   cursor: pointer;
   display: flex;
@@ -31,7 +65,7 @@
 
 .icon{
   font-size: 32px;
-  color: #ea8685;
+  color: #504D6C;
   transition: .3s linear;
 }
 
@@ -52,7 +86,7 @@
 .card-content h3{
   top: 20px;
   text-transform: uppercase;
-  color: #ea8685;
+  color: #504D6C;
 }
 
 .card-content span{

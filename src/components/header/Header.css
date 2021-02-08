@@ -6,6 +6,7 @@
 
 .header-container {
   background-color: #f4f4f7;
+  color: #1C1C42;
 }
 
 .header {
@@ -13,8 +14,6 @@
   flex-direction: row;
   justify-content: space-between;
   padding-top: 10px;
-  position: relative;
-  font-family: Roboto, Georgia, Times, "Times New Roman", serif;
   font-size: 1rem;
   font-weight: bold;
 }

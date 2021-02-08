@@ -16,13 +16,39 @@ const Hero = () => {
               />
             </Col>
             <Col xs={6} md={4}>
-              xs=12 md=8
+              <div className='hero-start text-cente'>
+                <div className='content'>
+                  <h1 className=''>Black Ace Games</h1>
+                  <p>We take fun seriously</p>
+                </div>
+              </div>
             </Col>
           </Row>
         </div>
 
-        <div className='games m-5'>
-          <h1 className='text-center my-5'>Our Games</h1>
+        <div className='hero mb-5'>
+          <Row>
+            <Col xs={6} md={5}>
+              <div className='hero-start'>
+                <div className='contents'>
+                  <h1 className=''>Afro Detectives</h1>
+                  <p>Download our newest game</p>
+                  <button>Download</button>
+                </div>
+              </div>
+            </Col>
+            <Col xs={12} md={7}>
+              <img
+                className='img-fluid'
+                src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1612794154/maingameimage_bvafxb.png'
+                alt='img'
+              />
+            </Col>
+          </Row>
+        </div>
+
+        <div className='games mb-5'>
+          <h1 className='text-center my-5'>Trending Games</h1>
           <Row>
             <Col xs={6} md={4}>
               <img
@@ -49,39 +75,14 @@ const Hero = () => {
         </div>
       </Container>
 
-      {/* <div className='team m-5'>
-        <h1 className='text-center my-5'>Our Games</h1>
-        <Row>
-          <Col xs={6} md={4}>
-            <img
-              className='img-fluid'
-              src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1610066864/Rectangle_4_w64mko.png'
-              alt='img'
-            />
-          </Col>
-          <Col xs={6} md={4}>
-            <img
-              className='img-fluid'
-              src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1610066864/Rectangle_4_w64mko.png'
-              alt='img'
-            />
-          </Col>
-          <Col xs={6} md={4}>
-            <img
-              className='img-fluid'
-              src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1610066864/Rectangle_4_w64mko.png'
-              alt='img'
-            />
-          </Col>
-        </Row>
-      </div> */}
+      <h1 className='text-center con'>Contact Us</h1>
 
       <div className='contact-info'>
         <div className='cards'>
           <i className='icon fas fa-envelope'></i>
           <div className='card-content'>
             <h3>Email</h3>
-            <span>tosanogharandukun@gmail.com</span>
+            <span>blackacestudio3@gmail.com</span>
           </div>
         </div>
 
@@ -101,71 +102,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className='contact m-5'>
-        <div className='row'>
-          <div className='col-6 bg-danger'>
-            <form className=''>
-              <h1 className='text-center my-5'>Contact us</h1>
-
-              <div className=''>
-                <label className='col-md-3 control-label'>
-                  Name
-                </label>
-                <div className='col-md-12'>
-                  <input
-                    id='name'
-                    name='name'
-                    type='text'
-                    placeholder='Your name'
-                    className='form-control'
-                  />
-                </div>
-              </div>
-
-              <div className='form-group'>
-                <label className='col-md-3 control-label'>
-                  Email
-                </label>
-                <div className='col-md-12'>
-                  <input
-                    id='email'
-                    name='email'
-                    type='text'
-                    placeholder='Your email'
-                    className='form-control'
-                  />
-                </div>
-              </div>
-
-              <div className='form-group'>
-                <label className='col-md-3 control-label'>
-                  Your message
-                </label>
-                <div className='col-md-12'>
-                  <textarea
-                    className='form-control'
-                    id='message'
-                    name='message'
-                    placeholder='Please enter your message here...'
-                    rows='5'
-                  ></textarea>
-                </div>
-              </div>
-
-              <div className='form-group'>
-                <div className=''>
-                  <button type='submit' className='btn btn-primary btn-lg'>
-                    Submit
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-
-          <div className='col-6 bg-success'></div>
-        </div>
-      </div> */}
     </div>
   );
 };
