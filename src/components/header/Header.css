@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  background-color: #f4f4f7;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+  position: relative;
+  font-family: Roboto, Georgia, Times, "Times New Roman", serif;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.logo ul,
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.nav-links ul li {
+  margin-left: 50px;
+}
