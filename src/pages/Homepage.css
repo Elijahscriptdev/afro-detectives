@@ -1,0 +1,179 @@
+.hero-section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-img img {
+  height: 92vh;
+  width: 100%;
+}
+
+.hero-text {
+  margin: auto;
+}
+
+.content p {
+  border-bottom: 10px solid #f6e7ea;
+  width: 20vw;
+}
+
+.download-section {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.download-img img {
+  height: 92vh;
+  width: 100%;
+}
+
+.download-text {
+  margin: auto;
+}
+
+button {
+  padding: 15px 15px;
+  border-radius: 10%;
+  background: #504d6c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.games {
+  text-align: center;
+}
+
+.games-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.games-img img {
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+}
+
+.con {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.contact-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50vh;
+}
+
+.cards {
+  position: relative;
+  flex: 1;
+  max-width: 300px;
+  height: 180px;
+  background-color: #1c1c42;
+  margin: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 32px;
+  color: #504d6c;
+  transition: 0.3s linear;
+}
+
+.cards:hover .icon {
+  transform: scale(4);
+  opacity: 0;
+}
+
+.card-content h3,
+.card-content span {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  opacity: 0;
+}
+
+.card-content h3 {
+  top: 20px;
+  text-transform: uppercase;
+  color: #504d6c;
+}
+
+.card-content span {
+  bottom: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+
+.cards:hover h3 {
+  opacity: 1;
+  top: 46px;
+  transition: 0.3s linear 0.3s;
+}
+
+.cards:hover span {
+  opacity: 1;
+  bottom: 46px;
+  transition: 0.3s linear 0.3s;
+}
+
+@media screen and (max-width: 900px) {
+  .hero-img img {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .hero-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    margin: 20px auto 80px;
+    text-align: center;
+  }
+
+  .content p {
+    border-bottom: 10px solid #f6e7ea;
+    width: 100%;
+  }
+
+  .download-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0 15px;
+    text-align: center;
+  }
+
+  .games-img {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 20px;
+    width: 100%;
+    margin: 0 10px;
+  }
+
+  .cards {
+    flex: 100%;
+    max-width: 500px;
+  }
+}

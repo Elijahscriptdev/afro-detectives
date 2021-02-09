@@ -1,7 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background: #e9eaed;
-    font-family: 'Oswald', sans-serif;
-    margin: 0;
-    padding: 0;
-    /* overflow-x: hidden; */
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #1C1C42;
+  font-size: 65px;
+  line-height: 57px;
+}
+
+p {
+  margin-top: 2px;
+  color: #504D6C;
+  font-size: 32px;
+  line-height: 57px;
 }

@@ -3,8 +3,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className='text-center footer'>
-      <Footer>Black Ace Games 2021</Footer>
+    <div className='footer'>
+      <p>Black Ace Games 2021</p>
     </div>
   );
 };

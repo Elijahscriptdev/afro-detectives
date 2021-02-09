@@ -1,15 +1,11 @@
-import React from "react";
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Hero from "./components/hero/Hero";
+
+import './App.css';
+import Homepage from './pages/Homepage';
 
 function App() {
   return (
-    <div className='App'>
-      <Header />
-      <Hero />
-      <Footer />
+    <div className="App">
+      <Homepage />
     </div>
   );
 }

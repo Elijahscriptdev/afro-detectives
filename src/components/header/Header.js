@@ -14,7 +14,6 @@ const Header = () => {
           <ul>
             <li>Home</li>
             <li>Our Games</li>
-            <li>Team</li>
             <li>Contact Us</li>
           </ul>
         </div>
