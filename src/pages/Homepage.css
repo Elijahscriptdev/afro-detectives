@@ -22,7 +22,7 @@
 .download-section {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -35,13 +35,18 @@
   margin: auto;
 }
 
-button {
+.download-content a {
   padding: 15px 15px;
   border-radius: 10%;
   background: #504d6c;
   border: none;
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
+}
+
+.download-content p {
+  margin-bottom: 20px;
 }
 
 .games {

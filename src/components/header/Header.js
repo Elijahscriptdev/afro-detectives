@@ -7,7 +7,12 @@ const Header = () => {
       <div className='header container'>
         <div className='logo'>
           <ul>
-            <li>LOGO</li>
+            <li>
+              <img
+                src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1612881427/93_eklwtu.png'
+                alt='img'
+              />
+            </li>
           </ul>
         </div>
         <div className='nav-links'>

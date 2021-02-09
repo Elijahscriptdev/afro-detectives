@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import "./Homepage.css";
+import apk from "../assets/afro.apk";
 
 const Homepage = () => {
   return (
@@ -29,7 +30,7 @@ const Homepage = () => {
           <div className='download-content'>
             <h1 className=''>Afro Detectives</h1>
             <p>Download our newest game</p>
-            <button>Download Now</button>
+            <a href={apk} target="_blank" rel="noopener noreferrer">click to download</a>
           </div>
         </div>
         <div className='download-img'>
@@ -42,7 +43,7 @@ const Homepage = () => {
       </div>
 
       <div className='games'>
-        <h1 className=''>Trending Games</h1>
+        <h1 className=''>Other Games</h1>
         <div className='games-img'>
           <div>
             <img
