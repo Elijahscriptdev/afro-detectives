@@ -62,7 +62,7 @@ const Homepage = () => {
           <div>
             <img
               className='img-fluid'
-              src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1612794154/team3_ycuw20.jpg'
+              src='https://res.cloudinary.com/elijjaaahhhh/image/upload/v1612884886/osu_g8z1f1.png'
               alt='img'
             />
           </div>
