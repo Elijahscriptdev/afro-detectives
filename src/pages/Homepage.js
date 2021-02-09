@@ -30,7 +30,7 @@ const Homepage = () => {
           <div className='download-content'>
             <h1 className=''>Afro Detectives</h1>
             <p>Download our newest game</p>
-            <a href={apk} target="_blank" rel="noopener noreferrer">click to download</a>
+            <a href={apk} >click to download</a>
           </div>
         </div>
         <div className='download-img'>
